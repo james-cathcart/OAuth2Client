@@ -23,7 +23,5 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
                     .hasRole(ADMIN_ROLE)
                 .antMatchers(AppConstants.HEALTH_CHECK_URI)
                     .authenticated();
-//                .anyRequest()
-//                .authenticated();
     }
 }
